@@ -1,25 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Route,
+  Redirect,
+  Switch
+} from 'react-router-dom';
 
-function App() {
+
+
+import MainPage from ".";
+import AboutPage from "./Pages/About";
+import ContactPage from "./Pages/Contact";
+import CatalogPage from "./Pages/Catalog";
+import NavBar from "./Components/NavBar";
+import BaseFooter from "./Components/BaseFooter";
+
+
+
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <Router>
+     <NavBar />
+     <main>
+        <Switch>
+          <Route path="/" exact>
+            <MainPage />
+          </Route>
+          <Route path="/about" exact>
+            <AboutPage />
+          </Route>
+          <Route path="/contact" exact>
+            <ContactPage />
+          </Route>
+          <Route path="/catalog/:id" exact>
+            <CatalogPage />
+          </Route>
+          <Redirect to="/"/>
+        </Switch>
+     </main>
+     <BaseFooter />
+   </Router>
   );
 }
+
+// catalog/1
+
 
 export default App;
