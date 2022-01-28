@@ -35,10 +35,7 @@ export default function  NavBar() {
     
     
     
-    const nav_bar = "absolute left-full md:relative md:left-0 md:flex md:justify-between max-w-screen-xl mx-auto px-4"
-    const setNav_bar = "absolute left-full md:relative md:left-0 md:flex md:justify-between max-w-screen-xl mx-auto px-4"
     
-    const [nav_bar, setNav_bar ] = useState(nav_bar)
 
 
     return (
