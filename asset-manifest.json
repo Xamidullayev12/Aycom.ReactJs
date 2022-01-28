@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Aycom.ReactJs/static/css/main.d7ec01cd.css",
+    "main.js": "/Aycom.ReactJs/static/js/main.c565025d.js",
+    "static/media/main-1.png": "/Aycom.ReactJs/static/media/main-1.8ac0ad7b405f3ad96b2c.png",
+    "static/media/main-3.png": "/Aycom.ReactJs/static/media/main-3.a7232aadd2ae601c73d1.png",
+    "static/media/main-2.png": "/Aycom.ReactJs/static/media/main-2.d92b311e4bb20b7e5be7.png",
+    "static/media/mainImage-1.png": "/Aycom.ReactJs/static/media/mainImage-1.1ac75e0bf098db631592.png",
+    "static/media/more-info.png": "/Aycom.ReactJs/static/media/more-info.99af2994ebe309b960bc.png",
+    "static/media/main-3-1.png": "/Aycom.ReactJs/static/media/main-3-1.fbc796e2131a155ce033.png",
+    "static/media/contact.png": "/Aycom.ReactJs/static/media/contact.feddfea8717f1baa3ebd.png",
+    "static/media/image-3.png": "/Aycom.ReactJs/static/media/image-3.bdef95f1d288c51aefd4.png",
+    "static/media/card-5.png": "/Aycom.ReactJs/static/media/card-5.fafcd8dd9d9dc22145a3.png",
+    "static/media/card-1.png": "/Aycom.ReactJs/static/media/card-1.19ef9d4aca97c943489c.png",
+    "static/media/image-1.png": "/Aycom.ReactJs/static/media/image-1.867f90cdff8d0ecc4af0.png",
+    "static/media/card-3.png": "/Aycom.ReactJs/static/media/card-3.59eadcb8c848d44289c6.png",
+    "static/media/card-4.png": "/Aycom.ReactJs/static/media/card-4.14709da96df9907e40f0.png",
+    "static/media/image-2.png": "/Aycom.ReactJs/static/media/image-2.29e4fc092107136ccaea.png",
+    "static/media/card-2.png": "/Aycom.ReactJs/static/media/card-2.2f9d579a650520335428.png",
+    "index.html": "/Aycom.ReactJs/index.html",
+    "main.d7ec01cd.css.map": "/Aycom.ReactJs/static/css/main.d7ec01cd.css.map",
+    "main.c565025d.js.map": "/Aycom.ReactJs/static/js/main.c565025d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7ec01cd.css",
+    "static/js/main.c565025d.js"
+  ]
+}
