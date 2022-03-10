@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom';
 
 
-
+//    Pages
 import MainPage from ".";
 import AboutPage from "./Pages/About";
 import ContactPage from "./Pages/Contact";
@@ -34,10 +34,10 @@ const App = () => {
           <Route path="/contact" exact>
             <ContactPage />
           </Route>
-          <Route path="/catalog/:id" exact>
-            <CatalogPage />
+          <Route path="/catalog/" exact>
+            <CatalogPage /> 
           </Route>
-          <Redirect to="/"/>
+          <Redirect/>
         </Switch>
      </main>
      <BaseFooter />

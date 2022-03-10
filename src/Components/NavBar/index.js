@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import logo from "../images/MainPage/header-logo.png"
 import { NavLink } from "react-router-dom";
+import logo from "../images/MainPage/header-logo.png"
 
 //      Rect Icons      //
 import { useLocation } from "react-router-dom";
@@ -31,12 +31,6 @@ export default function  NavBar() {
 
 
     
-    
-    
-    
-    
-    
-
 
     return (
         <section>
